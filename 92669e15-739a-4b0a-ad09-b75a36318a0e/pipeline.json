@@ -1,0 +1,1690 @@
+{
+  "components": {
+    "pipeline--1586451359362": {
+      "preview": "IMPORT_FRAME",
+      "icon": "https://play.semoss.org/dev/Monolith/api/engine/appImage?app\u003d4ec5303a-487f-47c8-8037-097101f2ba47",
+      "description": "Select data from an app",
+      "required": {},
+      "output": [
+        {
+          "output": 0,
+          "downstream": {},
+          "value": {
+            "joins": [],
+            "headers": [
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__age"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "age",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__age",
+                "alias": "age",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__bp_1d"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "bp_1d",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__bp_1d",
+                "alias": "bp_1d",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__bp_1s"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "bp_1s",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__bp_1s",
+                "alias": "bp_1s",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__bp_2d"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "bp_2d",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__bp_2d",
+                "alias": "bp_2d",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__bp_2s"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "bp_2s",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__bp_2s",
+                "alias": "bp_2s",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__chol"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "chol",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__chol",
+                "alias": "chol",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__Drug"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "Drug",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "adtlType": "unknown",
+                "header": "FRAME416066__Drug",
+                "alias": "Drug",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__frame"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "frame",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "adtlType": "unknown",
+                "header": "FRAME416066__frame",
+                "alias": "frame",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__gender"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "gender",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "adtlType": "unknown",
+                "header": "FRAME416066__gender",
+                "alias": "gender",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__glyhb"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "glyhb",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__glyhb",
+                "alias": "glyhb",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__hdl"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "hdl",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__hdl",
+                "alias": "hdl",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__height"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "height",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__height",
+                "alias": "height",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__hip"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "hip",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__hip",
+                "alias": "hip",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__id"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "id",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "adtlType": "unknown",
+                "header": "FRAME416066__id",
+                "alias": "id",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__location"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "location",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "adtlType": "unknown",
+                "header": "FRAME416066__location",
+                "alias": "location",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__ratio"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "ratio",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__ratio",
+                "alias": "ratio",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__stab_glu"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "stab_glu",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__stab_glu",
+                "alias": "stab_glu",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__time_ppn"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "time_ppn",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__time_ppn",
+                "alias": "time_ppn",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__waist"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "waist",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__waist",
+                "alias": "waist",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              },
+              {
+                "qsName": {
+                  "4ec5303a-487f-47c8-8037-097101f2ba47": [
+                    "DIABETES__weight"
+                  ]
+                },
+                "isDerived": false,
+                "displayName": "weight",
+                "isPrim": "false",
+                "dataType": "NUMBER",
+                "adtlType": "unknown",
+                "header": "FRAME416066__weight",
+                "alias": "weight",
+                "isFiltered": false,
+                "parentNode": "FRAME416066"
+              }
+            ],
+            "name": "FRAME416066",
+            "type": "GRID"
+          },
+          "frame": true
+        }
+      ],
+      "disableEdit": false,
+      "input": [],
+      "componentToPixelMap": "Database( database\u003d[\"4ec5303a-487f-47c8-8037-097101f2ba47\"] )|Select(DIABETES__age, DIABETES__bp_1d, DIABETES__bp_1s, DIABETES__bp_2d, DIABETES__bp_2s, DIABETES__chol, DIABETES__Drug, DIABETES__frame, DIABETES__gender, DIABETES__glyhb, DIABETES__hdl, DIABETES__height, DIABETES__hip, DIABETES__id, DIABETES__location, DIABETES__ratio, DIABETES__stab_glu, DIABETES__time_ppn, DIABETES__waist, DIABETES__weight).as([age, bp_1d, bp_1s, bp_2d, bp_2s, chol, Drug, frame, gender, glyhb, hdl, height, hip, id, location, ratio, stab_glu, time_ppn, waist, weight]) | Import(frame\u003d[CreateFrame(frameType\u003d[GRID], override\u003d[true]).as([\"FRAME416066\"])]);",
+      "options": {},
+      "name": "PK and Brians App",
+      "id": "pipeline-app",
+      "position": {
+        "auto": false,
+        "top": 24,
+        "left": 24
+      },
+      "state": "executed",
+      "validInput": true,
+      "pixel": "\u003cQUERY_STRUCT\u003e | Import(frame\u003d[\u003cIMPORT_FRAME\u003e]);",
+      "parameters": {
+        "QUERY_STRUCT": {
+          "upstream": {},
+          "parameter": "QUERY_STRUCT",
+          "type": "QUERY_STRUCT",
+          "value": {
+            "offset": -1,
+            "explicitFilters": [],
+            "limit": -1,
+            "havingFilters": [],
+            "isDistinct": true,
+            "orders": [],
+            "qsType": "ENGINE",
+            "engineName": "4ec5303a-487f-47c8-8037-097101f2ba47",
+            "relations": [],
+            "selectors": [
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "age",
+                  "alias": "age",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "bp_1d",
+                  "alias": "bp_1d",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "bp_1s",
+                  "alias": "bp_1s",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "bp_2d",
+                  "alias": "bp_2d",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "bp_2s",
+                  "alias": "bp_2s",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "chol",
+                  "alias": "chol",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "Drug",
+                  "alias": "Drug",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "frame",
+                  "alias": "frame",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "gender",
+                  "alias": "gender",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "glyhb",
+                  "alias": "glyhb",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "hdl",
+                  "alias": "hdl",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "height",
+                  "alias": "height",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "hip",
+                  "alias": "hip",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "id",
+                  "alias": "id",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "location",
+                  "alias": "location",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "ratio",
+                  "alias": "ratio",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "stab_glu",
+                  "alias": "stab_glu",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "time_ppn",
+                  "alias": "time_ppn",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "waist",
+                  "alias": "waist",
+                  "table": "DIABETES"
+                }
+              },
+              {
+                "type": "COLUMN",
+                "content": {
+                  "column": "weight",
+                  "alias": "weight",
+                  "table": "DIABETES"
+                }
+              }
+            ]
+          },
+          "required": true,
+          "frame": true
+        },
+        "SELECTED": {
+          "upstream": {},
+          "parameter": "SELECTED",
+          "type": "",
+          "value": {
+            "traversal": {
+              "searched": [
+                {
+                  "columns": [
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__age",
+                      "column": "age",
+                      "alias": "age",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_1d",
+                      "column": "bp_1d",
+                      "alias": "bp 1d",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_1s",
+                      "column": "bp_1s",
+                      "alias": "bp 1s",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_2d",
+                      "column": "bp_2d",
+                      "alias": "bp 2d",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_2s",
+                      "column": "bp_2s",
+                      "alias": "bp 2s",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__chol",
+                      "column": "chol",
+                      "alias": "chol",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__Drug",
+                      "column": "Drug",
+                      "alias": "Drug",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__frame",
+                      "column": "frame",
+                      "alias": "frame",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__gender",
+                      "column": "gender",
+                      "alias": "gender",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__glyhb",
+                      "column": "glyhb",
+                      "alias": "glyhb",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__hdl",
+                      "column": "hdl",
+                      "alias": "hdl",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__height",
+                      "column": "height",
+                      "alias": "height",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__hip",
+                      "column": "hip",
+                      "alias": "hip",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__id",
+                      "column": "id",
+                      "alias": "id",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__location",
+                      "column": "location",
+                      "alias": "location",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__ratio",
+                      "column": "ratio",
+                      "alias": "ratio",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__stab_glu",
+                      "column": "stab_glu",
+                      "alias": "stab glu",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__time_ppn",
+                      "column": "time_ppn",
+                      "alias": "time ppn",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__waist",
+                      "column": "waist",
+                      "alias": "waist",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__weight",
+                      "column": "weight",
+                      "alias": "weight",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    }
+                  ],
+                  "alias": "DIABETES",
+                  "table": "DIABETES",
+                  "open": true
+                }
+              ],
+              "searchTerm": "",
+              "options": [
+                {
+                  "columns": [
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__age",
+                      "column": "age",
+                      "alias": "age",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_1d",
+                      "column": "bp_1d",
+                      "alias": "bp 1d",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_1s",
+                      "column": "bp_1s",
+                      "alias": "bp 1s",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_2d",
+                      "column": "bp_2d",
+                      "alias": "bp 2d",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_2s",
+                      "column": "bp_2s",
+                      "alias": "bp 2s",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__chol",
+                      "column": "chol",
+                      "alias": "chol",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__Drug",
+                      "column": "Drug",
+                      "alias": "Drug",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__frame",
+                      "column": "frame",
+                      "alias": "frame",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__gender",
+                      "column": "gender",
+                      "alias": "gender",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__glyhb",
+                      "column": "glyhb",
+                      "alias": "glyhb",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__hdl",
+                      "column": "hdl",
+                      "alias": "hdl",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__height",
+                      "column": "height",
+                      "alias": "height",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__hip",
+                      "column": "hip",
+                      "alias": "hip",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__id",
+                      "column": "id",
+                      "alias": "id",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__location",
+                      "column": "location",
+                      "alias": "location",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__ratio",
+                      "column": "ratio",
+                      "alias": "ratio",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__stab_glu",
+                      "column": "stab_glu",
+                      "alias": "stab glu",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__time_ppn",
+                      "column": "time_ppn",
+                      "alias": "time ppn",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__waist",
+                      "column": "waist",
+                      "alias": "waist",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__weight",
+                      "column": "weight",
+                      "alias": "weight",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    }
+                  ],
+                  "alias": "DIABETES",
+                  "table": "DIABETES",
+                  "open": true
+                }
+              ],
+              "selectedQueueTable": {
+                "columns": [
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__age",
+                    "column": "age",
+                    "alias": "age",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__bp_1d",
+                    "column": "bp_1d",
+                    "alias": "bp 1d",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__bp_1s",
+                    "column": "bp_1s",
+                    "alias": "bp 1s",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__bp_2d",
+                    "column": "bp_2d",
+                    "alias": "bp 2d",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__bp_2s",
+                    "column": "bp_2s",
+                    "alias": "bp 2s",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__chol",
+                    "column": "chol",
+                    "alias": "chol",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__Drug",
+                    "column": "Drug",
+                    "alias": "Drug",
+                    "orders": [],
+                    "filters": [],
+                    "type": "STRING",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__frame",
+                    "column": "frame",
+                    "alias": "frame",
+                    "orders": [],
+                    "filters": [],
+                    "type": "STRING",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__gender",
+                    "column": "gender",
+                    "alias": "gender",
+                    "orders": [],
+                    "filters": [],
+                    "type": "STRING",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__glyhb",
+                    "column": "glyhb",
+                    "alias": "glyhb",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__hdl",
+                    "column": "hdl",
+                    "alias": "hdl",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__height",
+                    "column": "height",
+                    "alias": "height",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__hip",
+                    "column": "hip",
+                    "alias": "hip",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__id",
+                    "column": "id",
+                    "alias": "id",
+                    "orders": [],
+                    "filters": [],
+                    "type": "STRING",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__location",
+                    "column": "location",
+                    "alias": "location",
+                    "orders": [],
+                    "filters": [],
+                    "type": "STRING",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__ratio",
+                    "column": "ratio",
+                    "alias": "ratio",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__stab_glu",
+                    "column": "stab_glu",
+                    "alias": "stab glu",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__time_ppn",
+                    "column": "time_ppn",
+                    "alias": "time ppn",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__waist",
+                    "column": "waist",
+                    "alias": "waist",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  },
+                  {
+                    "hasAliasError": false,
+                    "havings": [],
+                    "isPrimKey": false,
+                    "concept": "DIABETES__weight",
+                    "column": "weight",
+                    "alias": "weight",
+                    "orders": [],
+                    "filters": [],
+                    "type": "NUMBER",
+                    "typeFormat": "",
+                    "table": "DIABETES"
+                  }
+                ],
+                "joinType": "inner.join",
+                "idx": 0,
+                "table": "DIABETES"
+              },
+              "toggle": true,
+              "selectedQueueTableIdx": 0
+            },
+            "selected": {
+              "queue": [
+                {
+                  "columns": [
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__age",
+                      "column": "age",
+                      "alias": "age",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_1d",
+                      "column": "bp_1d",
+                      "alias": "bp 1d",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_1s",
+                      "column": "bp_1s",
+                      "alias": "bp 1s",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_2d",
+                      "column": "bp_2d",
+                      "alias": "bp 2d",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_2s",
+                      "column": "bp_2s",
+                      "alias": "bp 2s",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__chol",
+                      "column": "chol",
+                      "alias": "chol",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__Drug",
+                      "column": "Drug",
+                      "alias": "Drug",
+                      "orders": [],
+                      "filters": [],
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__frame",
+                      "column": "frame",
+                      "alias": "frame",
+                      "orders": [],
+                      "filters": [],
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__gender",
+                      "column": "gender",
+                      "alias": "gender",
+                      "orders": [],
+                      "filters": [],
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__glyhb",
+                      "column": "glyhb",
+                      "alias": "glyhb",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__hdl",
+                      "column": "hdl",
+                      "alias": "hdl",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__height",
+                      "column": "height",
+                      "alias": "height",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__hip",
+                      "column": "hip",
+                      "alias": "hip",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__id",
+                      "column": "id",
+                      "alias": "id",
+                      "orders": [],
+                      "filters": [],
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__location",
+                      "column": "location",
+                      "alias": "location",
+                      "orders": [],
+                      "filters": [],
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__ratio",
+                      "column": "ratio",
+                      "alias": "ratio",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__stab_glu",
+                      "column": "stab_glu",
+                      "alias": "stab glu",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__time_ppn",
+                      "column": "time_ppn",
+                      "alias": "time ppn",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__waist",
+                      "column": "waist",
+                      "alias": "waist",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    {
+                      "hasAliasError": false,
+                      "havings": [],
+                      "isPrimKey": false,
+                      "concept": "DIABETES__weight",
+                      "column": "weight",
+                      "alias": "weight",
+                      "orders": [],
+                      "filters": [],
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    }
+                  ],
+                  "joinType": "inner.join",
+                  "idx": 0,
+                  "table": "DIABETES"
+                }
+              ]
+            },
+            "structure": {
+              "tables": {
+                "DIABETES": {
+                  "columns": {
+                    "Drug": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__Drug",
+                      "column": "Drug",
+                      "alias": "Drug",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "gender": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__gender",
+                      "column": "gender",
+                      "alias": "gender",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "stab glu": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__stab_glu",
+                      "column": "stab_glu",
+                      "alias": "stab glu",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "weight": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__weight",
+                      "column": "weight",
+                      "alias": "weight",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "bp 2s": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_2s",
+                      "column": "bp_2s",
+                      "alias": "bp 2s",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "bp 1s": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_1s",
+                      "column": "bp_1s",
+                      "alias": "bp 1s",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "chol": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__chol",
+                      "column": "chol",
+                      "alias": "chol",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "time ppn": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__time_ppn",
+                      "column": "time_ppn",
+                      "alias": "time ppn",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "hip": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__hip",
+                      "column": "hip",
+                      "alias": "hip",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "glyhb": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__glyhb",
+                      "column": "glyhb",
+                      "alias": "glyhb",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "hdl": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__hdl",
+                      "column": "hdl",
+                      "alias": "hdl",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "location": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__location",
+                      "column": "location",
+                      "alias": "location",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "waist": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__waist",
+                      "column": "waist",
+                      "alias": "waist",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "id": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__id",
+                      "column": "id",
+                      "alias": "id",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "bp 2d": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_2d",
+                      "column": "bp_2d",
+                      "alias": "bp 2d",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "bp 1d": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__bp_1d",
+                      "column": "bp_1d",
+                      "alias": "bp 1d",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "age": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__age",
+                      "column": "age",
+                      "alias": "age",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "frame": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__frame",
+                      "column": "frame",
+                      "alias": "frame",
+                      "type": "STRING",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "height": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__height",
+                      "column": "height",
+                      "alias": "height",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    },
+                    "ratio": {
+                      "isPrimKey": false,
+                      "concept": "DIABETES__ratio",
+                      "column": "ratio",
+                      "alias": "ratio",
+                      "type": "NUMBER",
+                      "typeFormat": "",
+                      "table": "DIABETES"
+                    }
+                  },
+                  "alias": "DIABETES",
+                  "position": {
+                    "top": 0,
+                    "left": 0
+                  },
+                  "table": "DIABETES"
+                }
+              },
+              "edges": []
+            }
+          },
+          "required": false,
+          "frame": true
+        },
+        "SELECTED_APP": {
+          "upstream": {},
+          "parameter": "SELECTED_APP",
+          "type": "",
+          "value": {
+            "image": "https://play.semoss.org/dev/Monolith/api/engine/appImage?app\u003d4ec5303a-487f-47c8-8037-097101f2ba47",
+            "display": "PK and Brians App",
+            "value": "4ec5303a-487f-47c8-8037-097101f2ba47"
+          },
+          "required": false,
+          "frame": true
+        },
+        "IMPORT_FRAME": {
+          "upstream": {},
+          "parameter": "IMPORT_FRAME",
+          "type": "CREATE_FRAME",
+          "value": {
+            "name": "FRAME416066",
+            "override": true,
+            "type": "GRID"
+          },
+          "required": true,
+          "frame": true
+        }
+      },
+      "key": "pipeline--1586451359362"
+    }
+  }
+}

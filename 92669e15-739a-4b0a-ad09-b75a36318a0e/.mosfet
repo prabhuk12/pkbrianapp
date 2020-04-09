@@ -1,0 +1,20 @@
+{
+  "engineId": "4ec5303a-487f-47c8-8037-097101f2ba47",
+  "rdbmsId": "92669e15-739a-4b0a-ad09-b75a36318a0e",
+  "insightName": "PK Brian New Insight !!",
+  "layout": "",
+  "hidden": false,
+  "recipe": [
+    "AddPanel ( panel \u003d [ 0 ] , sheet \u003d [ \"0\" ] ) ;",
+    "Panel ( 0 ) | AddPanelConfig ( config \u003d [ { \"type\" : \"golden\" } ] ) ;",
+    "Panel ( 0 ) | AddPanelEvents ( { \"onSingleClick\" : { \"Unfilter\" : [ { \"panel\" : \"\" , \"query\" : \"\u003cencode\u003e(\u003cFrame\u003e | UnfilterFrame(\u003cSelectedColumn\u003e));\u003c/encode\u003e\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabledVisuals\" : [ \"Grid\" , \"Sunburst\" ] , \"disabled\" : false } ] } , \"onBrush\" : { \"Filter\" : [ { \"panel\" : \"\" , \"query\" : \"\u003cencode\u003eif((IsEmpty(\u003cSelectedValues\u003e)),(\u003cFrame\u003e | UnfilterFrame(\u003cSelectedColumn\u003e)), (\u003cFrame\u003e | SetFrameFilter(\u003cSelectedColumn\u003e\u003d\u003d\u003cSelectedValues\u003e)));\u003c/encode\u003e\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabled\" : false } ] } } ) ;",
+    "Panel ( 0 ) | RetrievePanelEvents ( ) ;",
+    "Panel ( 0 ) | SetPanelView ( \"visualization\" , \"\u003cencode\u003e{\"type\":\"echarts\"}\u003c/encode\u003e\" ) ;",
+    "Panel ( 0 ) | SetPanelView ( \"pipeline\" ) ;",
+    "Database ( database \u003d [ \"4ec5303a-487f-47c8-8037-097101f2ba47\" ] ) | Select ( DIABETES__age , DIABETES__bp_1d , DIABETES__bp_1s , DIABETES__bp_2d , DIABETES__bp_2s , DIABETES__chol , DIABETES__Drug , DIABETES__frame , DIABETES__gender , DIABETES__glyhb , DIABETES__hdl , DIABETES__height , DIABETES__hip , DIABETES__id , DIABETES__location , DIABETES__ratio , DIABETES__stab_glu , DIABETES__time_ppn , DIABETES__waist , DIABETES__weight ) .as ( [ age , bp_1d , bp_1s , bp_2d , bp_2s , chol , Drug , frame , gender , glyhb , hdl , height , hip , id , location , ratio , stab_glu , time_ppn , waist , weight ] ) | Import ( frame \u003d [ CreateFrame ( frameType \u003d [ GRID ] , override \u003d [ true ] ) .as ( [ \"FRAME416066\" ] ) ] ) ;",
+    "Panel ( 0 ) | SetPanelView ( \"visualization\" ) ;",
+    "Frame ( frame \u003d [ FRAME416066 ] ) | QueryAll ( ) | AutoTaskOptions ( panel \u003d [ \"0\" ] , layout \u003d [ \"Grid\" ] ) | Collect ( 2000 ) ;",
+    "if ( ( FRAME416066 | HasDuplicates ( age ) ) , ( ( Frame ( frame \u003d [ FRAME416066 ] ) | Select ( age , Average ( bp_1d ) ) .as ( [ age , Average_of_bp_1d ] ) | Group ( age ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Column\" , \"alignment\" : { \"label\" : [ \"age\" ] , \"value\" : [ \"Average_of_bp_1d\" ] , \"tooltip\" : [ ] , \"facet\" : [ ] } } } ) | Collect ( 2000 ) ) ) , ( ( Frame ( frame \u003d [ FRAME416066 ] ) | Select ( age , bp_1d ) .as ( [ age , bp_1d ] ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Column\" , \"alignment\" : { \"label\" : [ \"age\" ] , \"value\" : [ \"bp_1d\" ] , \"tooltip\" : [ ] , \"facet\" : [ ] } } } ) | Collect ( 2000 ) ) ) ) ;",
+    "SetInsightConfig({\"panels\":{\"0\":{\"config\":{\"type\":\"golden\",\"backgroundColor\":\"\",\"opacity\":100}}},\"sheets\":{\"0\":{\"golden\":{\"content\":[{\"type\":\"row\",\"content\":[{\"type\":\"stack\",\"activeItemIndex\":0,\"width\":100,\"content\":[{\"type\":\"component\",\"componentName\":\"panel\",\"componentState\":{\"panelId\":\"0\"}}]}]}]}}},\"sheet\":\"0\"});"
+  ]
+}
