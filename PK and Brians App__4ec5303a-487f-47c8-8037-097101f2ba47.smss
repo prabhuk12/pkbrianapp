@@ -1,0 +1,9 @@
+Base Properties
+ENGINE	4ec5303a-487f-47c8-8037-097101f2ba47
+ENGINE_ALIAS	PK and Brians App
+ENGINE_TYPE	prerna.engine.impl.r.RNativeEngine
+RDBMS_INSIGHTS	db/@ENGINE@/insights_database
+RDBMS_INSIGHTS_TYPE	H2_DB
+OWL	db/@ENGINE@/PK and Brians App_OWL.OWL
+DATA_FILE	db/@ENGINE@/diabetes
+DATA_TYPES	{"Drug":"STRING","stab_glu":"INT","gender":"STRING","weight":"INT","bp_1s":"INT","bp_2s":"INT","chol":"INT","hip":"INT","time_ppn":"INT","glyhb":"DOUBLE","hdl":"INT","location":"STRING","bp_2d":"INT","waist":"INT","id":"STRING","bp_1d":"INT","age":"INT","ratio":"DOUBLE","height":"INT","frame":"STRING"}
